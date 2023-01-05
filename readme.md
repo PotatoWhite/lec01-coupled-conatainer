@@ -1,3 +1,14 @@
+# Tightly Coupled vs Loosely Coupled, Spring Container
+## 의존성 
+```groovy
+//spring boot
+implementation 'org.springframework.boot:spring-boot-starter'
+implementation 'org.springframework.boot:spring-boot-starter-web'
+implementation 'org.projectlombok:lombok:1.18.22'
+testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+```
+
 # Lecture 01 - Section 01 : Tightly Coupled 
 - Steam Launcher 가 Game을 실행하는 상황을 가정하여 표현한다면 다음과 같다.
 
