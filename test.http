@@ -1,0 +1,15 @@
+###
+POST http://localhost:8080/steam/launch
+Content-Type: application/json
+
+{
+  "name" : "Assassin's Creed"
+}
+
+###
+POST http://localhost:8080/steam/launch
+Content-Type: application/json
+
+{
+  "name" : "Counter-Strike"
+}
